@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Chat Application" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <section class="chat__section">
+        <div class="brand">
+          <i class="fa fa-comments"></i><span id="userName"></span><h2>Welcom</h2>
+        </div>
+        <div class="message__area">
+        </div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..." >
+            </textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+    <script src="/public/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
